@@ -1,0 +1,10 @@
+{
+  "serverPort": 80,
+  "database": "mongodb://localhost:27017/atom-package-sync",
+  "cacheHost": "localhost",
+  "cachePort": 6379,
+  "cacheDb": 0,
+  "googleClientWebId": "",
+  "googleClientAppId": ""
+
+}

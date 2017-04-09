@@ -1,0 +1,106 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: #1b7168;
+    background: radial-gradient(circle at 50% 40%,#55b1a7, #1b7168);
+    color: white;
+    height: 100%;
+    margin: 0;
+}
+
+.sign-in-box {
+    position: absolute;
+    width: 450px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    text-align: center;
+    font-weight: 300;
+    text-shadow: 0 1px 2px rgba(45,45,45, 0.3);    margin-top: 4px;
+    color: #010023;
+    font-size: 36px;
+}
+
+h1.logo {
+    font-family: 'Comfortaa', cursive;
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 0;
+    text-shadow: 0 1px 2px rgba(45,45,45, 0.5);
+}
+
+h1.logo b {
+    font-weight: 400;
+    font-size: 74px;
+    display: inline-block;
+    color: #fff283;
+    margin-right: 2px;
+}
+
+
+.sign-in-container {
+    margin-top: 60px;
+}
+
+.atom-logo {
+    vertical-align: bottom;
+    margin-right: 10px;
+    width: 64px
+}
+
+
+a.sign-in {
+    border: 1px solid rgba(66,66,66,0.5);
+    width: 300px;
+    display: block;
+    height: 52px;
+    border-radius: 4px;
+    background-color: rgba(255,255,255,0.9);
+    margin: auto;
+    font-weight: 800;
+    text-decoration: none;
+    color: #444;
+    font-size: 18px;
+    padding-left: 88px;
+    box-sizing: border-box;
+    line-height: 52px;
+    background-position: 13px center;
+    background-repeat: no-repeat;
+    transition: background-color 0.25s ease-out;
+}
+
+a.sign-in.google {
+    background-image: url('/images/google-g-40.png');
+
+}
+
+
+a.sign-in:hover {
+    background-color: rgba(255,255,255,1);
+}
+
+
+@media screen and (min-width: 550px) {
+    .sign-in-box {
+        width: 550px;
+    }
+}
+
+@media screen and (min-width: 620px) {
+    .sign-in-box {
+        width: 620px;
+    }
+
+    .sign-in-container {
+        margin-top: 90px;
+    }
+}

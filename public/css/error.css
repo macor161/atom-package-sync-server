@@ -1,0 +1,17 @@
+body {
+  padding-top: 100px;
+  background: #1b7168;
+  background: radial-gradient(circle at 50% 40%,#55b1a7, #1b7168);
+  color: white;
+  height: 100%;
+  margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 300;
+    text-shadow: 0 1px 2px rgba(45,45,45, 0.3);
+    margin-top: 4px;
+    color: #010023;
+    font-size: 36px;
+}

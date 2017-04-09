@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+
+body {
+    font-family: 'Roboto', sans-serif;;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+a {
+     color: #00B7FF;
+}
